@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".past_simple_activity"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="223dp"
+        android:src="@drawable/simple" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="418dp"
+        android:layout_margin="10dp"
+        android:text="The simple past is a verb tense that is used to talk about things that happened or existed before now. Imagine someone asks you what your brother Wolfgang did while he was in town last weekend.\n
+The simple past tense shows that you are talking about something that has already happened. Unlike the past continuous tense, which is used to talk about past events that happened over a period of time, the simple past tense indicates that the action occurred at a certain time and then was completed.\n
+You can also use the simple past to talk about a past state of being, such as the way someone felt about something. This is often expressed with the simple past tense of the verb to be and an adjective, noun, or prepositional phrase.\n\n
+1.Regular Verbs\n
+  *I worked at the company for five years.\n
+  *She visited her grandmother last weekend.\n
+  *They watched a movie yesterday.\n
+2.Irregular Verbs\n
+  *He ate breakfast at 8 o'clock.\n
+  *We went to the beach on Saturday.\n
+  *She bought a new dress for the party.
+"
+        android:textColor="#7D77EC"
+
+        android:textSize="15dp"
+        android:textStyle="bold" />
+    <Button
+        android:id="@+id/btnOpenLink"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="simplePastLink"
+        android:text="Open Link"/>
+
+</LinearLayout>

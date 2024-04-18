@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".present_cont_activity"
+    android:orientation="vertical"
+    >
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="223dp"
+        android:src="@drawable/presentcont" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="467dp"
+        android:layout_margin="10dp"
+        android:text="The present continuous verb tense indicates that an action or condition is happening now, frequently, and may continue into the future.\nThe Present Continuous Formula: to be [am, is, are] + verb [present participle].\n
+like:   Aunt Christine is warming up the car while Scott is looking for his new leather coat. They are eating at Scott’s favorite restaurant today, Polly’s Pancake Diner.\nThe present continuous (present progressive) tense is a way to convey any action or condition that is happening right now, frequently, and may be ongoing. It adds energy and action to writing, and its effect helps readers understand when the action is happening. Imagine Aunt Christine has surprised her nephew Scott for his birthday and is going to take him out to his favorite restaurant, Polly’s Pancake Diner. If I wanted to tell the story after it happened, I’d use the past tense.\n
+**The Present Continuous Formula\n
+To Be [Am, Is, Are] + Verb [ Present Participle ]\n
+Example:\n1.Affirmative Sentences.\n
+  **I am working on a project.\n
+  **She is reading a book.\n
+2.Negative Sentences.\n
+  **I am not watching TV right now.\n
+  **She isn't studying for the exam at the moment.\n
+  **They aren't playing video games."
+        android:textColor="#817EDF"
+        android:textSize="14dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnOpenLink"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="presentContLink"
+        android:text="Open Link" />
+
+</LinearLayout>

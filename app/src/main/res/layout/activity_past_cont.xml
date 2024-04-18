@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".past_cont_activity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="223dp"
+        android:src="@drawable/continuous" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="467dp"
+        android:layout_margin="10dp"
+        android:text="The past continuous tense, also known as the past progressive tense, describes ongoing actions in the past, such as I was writing my research paper all night. It uses the same construction as the present continuous tense except with the past tense of the verb to be.\n
+What separates the past continuous tense from the past perfect continuous tense or even the simple past tense? Below, we take a deep dive into the past continuous tense, go over all the rules and uses, and give plenty of past continuous tense examples.\n
+What is the past continuous tense?\n
+The past continuous tense shows a continuous action that began in the past. It is the past tense version of the present continuous, which also describes ongoing actions. The present and past continuous are very similar, but the past continuous uses was and were, the past tense of to be.\n
+The past continuous tense formula involves the past tense of to be (was or were) and the present participle of the verb, the –ing form.
+
+[was/were] + [present participle]\n
+
+example:\n
+1.Affirmative Sentences\n
+  *I was working when you called.\n
+  *She was reading a book at 7 PM.\n
+  *They were playing football in the park.\n
+2.Negative Sentences\n
+  *I was not watching TV when the power went out.\n
+  *She wasn't studying for the exam last night.\n
+  *They weren't playing video games at that time.\n"
+        android:textColor="#817EDF"
+        android:textSize="14dp"
+
+        android:textStyle="bold" />
+
+
+    <Button
+        android:id="@+id/btnOpenLink"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="simpleContLink"
+        android:text="Open Link" />
+
+
+</LinearLayout>

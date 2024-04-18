@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".simple_future_activity"
+    android:orientation="vertical">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="223dp"
+        android:src="@drawable/future" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="467dp"
+        android:layout_margin="10dp"
+        android:text="The simple future is a verb tense that’s used to talk about things that haven’t happened yet.\nWe Use the simple future to talk about an action or condition that will begin and end in the future.\n
+***The formula for the simple future is :\n   will + [root form of verb] .\nExample :\n  **I will learn a new language.\n
+  **Jen will read that book.\n It doesn’t matter if the subject is singular or plural; the formula for the simple future doesn’t change.\n
+
+But . . .There is another way to show that something will happen in the future.\n***It follows the formula :\n  am / is / are + going to + [ root form verb ].\n
+Example: \n  **I am going to learn a new language.\n  **My brothers are going to sleep till noon if no one wakes them up.\nExamples : \n1.Affirmative Sentences.\n
+  **I will call you later.\n
+  **She will read the book tomorrow.\n
+2.Negative Sentences
+  **I will not watch TV tonight.\n
+  **She won't study for the exam tomorrow.\n
+  **They won't play video games."
+        android:textColor="#817EDF"
+        android:textSize="14dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnOpenLink"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="simpleFutureLink"
+        android:text="Open Link" />
+</LinearLayout>

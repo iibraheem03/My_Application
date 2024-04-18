@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="223dp"
+        android:src="@drawable/phrasel" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="ask somebody out\n
+    invite on a date\n
+    Brian asked Judy out to dinner.\n\nask around\n
+    ask many people the same question\n
+    I asked around but nobody has seen my wallet.\n\nadd up to something\n
+    equal\n
+    Your purchases add up to $24.\n\nback something up\n
+    reverse\n
+    You'll have to back up your car so that I can get out.\n\nback somebody up\n
+    support\n
+    My wife backed me up over my decision to quit my job\n\nblow up\n
+    explode\n
+    The racing car blew up after it crashed into the fence.\n\nblow something up\n
+    add air\n
+    We have to blow 50 balloons up for the party.\n\nbreak down\n
+    stop functioning (vehicle, machine)\n
+    Our car broke down at the side of the highway in the snowstorm.\n\nbreak down\n
+    get upset\n
+    The woman broke down when the police told her that her son had died.\n\nbreak something down\n
+    divide into smaller parts\n
+    Our teacher broke the final project down into three separate parts.\n\nbreak in\n
+    force entry to a building\n
+    Somebody broke in last night and stole our stereo.\n\nbreak into something\n
+    enter forcibly\n
+    The firemen had to break into the room to rescue the children.\n\nbreak something in\n
+    wear something a few times so that it doesn't look/feel new\n
+    I need to break these shoes in before we run next week.\n\nbreak in\n
+    interrupt\n
+    The TV station broke in to report the news of the president's death.\n\nbreak up\n
+    end a relationship\n
+    My boyfriend and I broke up before I moved to America.\n\nbreak up\n
+    start laughing (informal)\n
+    The kids just broke up as soon as the clown started talking.\n\nbreak out\n
+    escape\n
+    The prisoners broke out of jail when the guards weren't looking.\n\nbreak out in something\n
+    develop a skin condition\n
+    I broke out in a rash after our camping trip.\n\nbring somebody down\n
+    make unhappy\n
+    This sad music is bringing me down.\n\nbring somebody up\n
+    raise a child\n
+    My grandparents brought me up after my parents died.\n\nbring something up\n
+    start talking about a subject\n
+    My mother walks out of the room when my father brings up sports.\n\nbring something up\n
+    vomit\n
+    He drank so much that he brought his dinner up in the toilet.\n\ncall around\n
+    phone many different places/people\n
+    We called around but we weren't able to find the car part we needed.\n\ncall somebody back\n
+    return a phone call\n
+    I called the company back but the offices were closed for the weekend.\n\ncall something off\n
+    cancel\n
+    Jason called the wedding off because he wasn't in love with his fiancé.\n\ncall on somebody\n
+    ask for an answer or opinion\n
+    The professor called on me for question 1.\n\n
+
+"
+            android:textColor="#7D77EC"
+            android:textStyle="bold">
+
+
+        </TextView>
+
+    </ScrollView>
+
+
+
+</LinearLayout>
+
+
+
+
